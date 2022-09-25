@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dfx": "0.11.1",
+  "canisters": {
+    "icp_microblog": {
+      "type": "motoko",
+      "main": "src/icp_microblog/main.mo"
+    },
+    "icp_microblog_2": {
+      "type": "motoko",
+      "main": "src/icp_microblog/main.mo"
+    }    
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
